@@ -1,11 +1,11 @@
 import "dotenv/config.js";
-const jwt = require('jsonwebtoken')
-const User = require('../models/userModel')
+import jwt from 'jsonwebtoken'
+import {User} from '../models/userModel.js'
 
 const requireAuth = async (req, res, next) => {
   // verify authentication
   const { authorization } = req.headers
-  console.log(authorization)
+
   if (!authorization) {
     return res.status(401).json({error: 'Authorization token required'})
   }
