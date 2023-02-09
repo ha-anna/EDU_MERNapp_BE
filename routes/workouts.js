@@ -6,7 +6,7 @@ import {
   deleteWorkout, 
   updateWorkout
 } from '../controllers/workoutController.js'
-const { requireAuth } = require('../middleware/requireAuth')
+import { requireAuth } from '../middleware/requireAuth.js'
 
 const router = express.Router()
 
