@@ -13,7 +13,7 @@
 
 ## Overview
 
-This is the backend code for a MERN app called Workout Buddy. Based on a tutorial prepared by [The Net Ninja](https://www.youtube.com/c/TheNetNinja/featured). Frontend code can be found [here](https://github.com/its-haanna/MERNapp_FE).
+This is the backend code for a MERN app called Workout Buddy. Based on a tutorial prepared by [The Net Ninja](https://www.youtube.com/c/TheNetNinja/featured). Frontend code can be found [here](https://github.com/ha-anna/EDU_MERNapp_FE).
 
 ### Screenshot
 
